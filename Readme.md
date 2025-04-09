@@ -36,4 +36,4 @@
 - `leds_8bits`：輸出腳位，連接到實體 LED。
 
 ## DEMO
-https://github.com/user-attachments/assets/774fa24d-8e63-490a-a5d0-78742201dd34
+https://youtube.com/shorts/xc9wgv8_prw?feature=share
