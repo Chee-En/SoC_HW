@@ -1,0 +1,23 @@
+16:53:19 **** Auto Build of configuration Debug for project soc_hw1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../soc_hw1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: soc_hw1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../soc_hw1_bsp/ps7_cortexa9_0/lib -o "soc_hw1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: soc_hw1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size soc_hw1.elf  |tee "soc_hw1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71744	   2596	  23344	  97684	  17d94	soc_hw1.elf
+'Finished building: soc_hw1.elf.size'
+' '
+
+16:53:20 Build Finished (took 798ms)
+

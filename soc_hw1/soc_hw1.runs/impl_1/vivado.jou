@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr  9 16:00:59 2025
+# Process ID: 20612
+# Current directory: D:/NKUST/SoC/SoCLab/soc_hw1/soc_hw1.runs/impl_1
+# Command line: vivado.exe -log hw_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hw_wrapper.tcl -notrace
+# Log file: D:/NKUST/SoC/SoCLab/soc_hw1/soc_hw1.runs/impl_1/hw_wrapper.vdi
+# Journal file: D:/NKUST/SoC/SoCLab/soc_hw1/soc_hw1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source hw_wrapper.tcl -notrace

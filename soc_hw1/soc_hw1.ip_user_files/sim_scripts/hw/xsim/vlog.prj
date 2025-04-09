@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../soc_hw1.srcs/sources_1/bd/hw/ipshared/ec67/hdl" --include "../../../../soc_hw1.srcs/sources_1/bd/hw/ipshared/70cf/hdl" --include "../../../../soc_hw1.srcs/sources_1/bd/hw/ip/hw_processing_system7_0_0" \
+"../../../bd/hw/ip/hw_processing_system7_0_0/sim/hw_processing_system7_0_0.v" \
+"../../../bd/hw/ip/hw_auto_pc_0/sim/hw_auto_pc_0.v" \
+"../../../bd/hw/sim/hw.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
