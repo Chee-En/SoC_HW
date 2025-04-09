@@ -8,7 +8,7 @@
 
 ## 系統架構
 
-![image](https://github.com/user-attachments/assets/763644ae-072d-450c-85e9-9badafe18237)
+![image](https://github.com/Chee-En/SoC_HW/blob/main/block_design.png)
 
 ## 需求分析
 #### 硬體需求
