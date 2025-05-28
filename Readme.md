@@ -8,7 +8,7 @@
 
 ## 系統架構
 
-![image]("block_design.png")
+![image](block_design.png)
 
 ## 需求分析
 #### 硬體需求
