@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 28 15:51:59 2025
+# Process ID: 27464
+# Current directory: D:/NKUST/SoCLab/SoCLab/homework1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17012 D:\NKUST\SoCLab\SoCLab\homework1\homework1.xpr
+# Log file: D:/NKUST/SoCLab/SoCLab/homework1/vivado.log
+# Journal file: D:/NKUST/SoCLab/SoCLab/homework1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/NKUST/SoCLab/SoCLab/homework1/homework1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/NKUST/SoCLab/SoCLab/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 794.750 ; gain = 178.207
+update_compile_order -fileset sources_1

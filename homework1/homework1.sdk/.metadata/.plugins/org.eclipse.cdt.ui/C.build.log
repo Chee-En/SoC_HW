@@ -1,0 +1,24 @@
+17:28:26 **** Auto Build of configuration Debug for project C ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../C_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:53:22: error: 'XPAR_HW1_0_S00_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_MYIP_0_S00_AXI_BASEADDR'?
+ #define HW1_BASEADDR XPAR_HW1_0_S00_AXI_BASEADDR
+                      ^
+../src/helloworld.c:67:19: note: in expansion of macro 'HW1_BASEADDR'
+         Xil_Out32(HW1_BASEADDR + REG_START, 0x01);
+                   ^~~~~~~~~~~~
+../src/helloworld.c:53:22: note: each undeclared identifier is reported only once for each function it appears in
+ #define HW1_BASEADDR XPAR_HW1_0_S00_AXI_BASEADDR
+                      ^
+../src/helloworld.c:67:19: note: in expansion of macro 'HW1_BASEADDR'
+         Xil_Out32(HW1_BASEADDR + REG_START, 0x01);
+                   ^~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+
+17:28:26 Build Finished (took 358ms)
+

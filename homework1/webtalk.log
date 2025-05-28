@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 21 18:09:36 2025
+# Process ID: 16060
+# Current directory: d:/NKUST/SoCLab/SoCLab/homework1
+# Command line: wbtcv.exe -mode batch -source d:/nkust/soclab/soclab/homework1/homework1.tmp/myip_v1_0_project/myip_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: d:/NKUST/SoCLab/SoCLab/homework1/webtalk.log
+# Journal file: d:/NKUST/SoCLab/SoCLab/homework1\webtalk.jou
+#-----------------------------------------------------------
+source d:/nkust/soclab/soclab/homework1/homework1.tmp/myip_v1_0_project/myip_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed May 21 18:09:36 2025...
